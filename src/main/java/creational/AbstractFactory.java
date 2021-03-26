@@ -8,6 +8,11 @@ package creational;
 //** Helps in UI design  : MacOs  + Windows + Linux  : Ui Ctrls + Buttons
 //** For a given ENV : we get Tuple(config , CyberArkConn)
 
+//The Abstract Factory design pattern solves problems like:
+//        How can an application be independent of how its objects are created?
+//        How can a class be independent of how the objects it requires are created?
+//        How can families of related or dependent objects be created?
+
 public class AbstractFactory {
 
     public static void main(String[] args) {
