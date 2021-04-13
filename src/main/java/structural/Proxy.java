@@ -12,7 +12,7 @@ public class Proxy {
 
         YouTubeService service = new YouTubeServiceImpl();
 
-        YouTubeService proxy_service = new YouTubeVideoServiceProxy(320);
+        YouTubeService proxy_service = new YouTubeVideoServiceProxy(120);
 
         proxy_service.addVideo("Helson", "Helson_mashUp.mp4");
         proxy_service.addVideo("Naveena", "Naveena_mashUp.mp4");
